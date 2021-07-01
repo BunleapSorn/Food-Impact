@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browse</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      p {
+        margin-bottom: 0;
+      }
+
+      .card {
+          width: 22rem !important;
+      }
+    </style>
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="dist/style.css" />
+  </head>
+  <body class="bg-light">
+    <div class="container bg-white">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand align-middle align-items-center" href="#">
+            <img src="/harvest.png" alt="" width="30" class="d-inline-block" />
+            FarmersGo
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse"></div>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" href="#">Browse</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container bg-white">
+      <div class="row d-flex justify-content-center">
+        <div class="col-6 mt-2">
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              value="egg"
+              aria-describedby="button-addon2"
+            />
+            <button
+              class="btn btn-outline-secondary"
+              type="button"
+              id="button-addon2"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container bg-white">
+      <div class="row">
+        <div class="col-3">
+          <div class="d-flex flex-column align-items-center border rounded shadow-sm">
+            <img
+              class="pt-4 pb-2"
+              src="https://lh3.googleusercontent.com/proxy/GtdpOO4AyhHK41hrUD0rLlM8LVUNtvOChDRFD0d0IluKTbzK076NWtJ2DVwz-pK8IBgP75fYh-4t0ZcqcIY8xz-ffZkLzk5w2H0MXnjK_HxCQeNu"
+              alt="egg"
+              width="60%"
+            />
+            <div class="mb-4">
+              <p><span class="fw-bold">Product:</span> Eggs</p>
+              <p><span class="fw-bold">Quantity:</span> On demand</p>
+              <p><span class="fw-bold">Price:</span> Variable</p>
+              <p><span class="fw-bold">Available Farmers:</span> 137</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-9 d-flex border-start border-4 flex-wrap">
+          <div class="card m-2 shadow-sm" style="width: 18rem">
+            <img
+              src="https://tanagerintl.org/wp-content/uploads/2018/04/kasimpur-village-farmer-Manahor.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text"><div class="mb-4">
+              <p><span class="fw-bold">Name:</span> Shreyans</p>
+              <p><span class="fw-bold">Price:</span> 3.6 rupees per egg</p>
+              <p><span class="fw-bold">Location:</span> Chennai</p>
+              <p><span class="fw-bold">Distance from Farmer:</span> 27.3 km</p>
+              <p><span class="fw-bold">Distance from Nearest Store:</span> 1.2 km</p>
+              <p><span class="fw-bold">Distance from Nearest Storage:</span> 5.3 km</p>
+            </div></p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+              <a href="#" class="btn btn-primary">Save Details</a>
+            </div>
+          </div>
+          <div class="card m-2 shadow-sm" style="width: 18rem">
+            <img
+              src="https://i0.wp.com/blog.neml.in/wp-content/uploads/2018/02/farmer2.jpg?ssl=1"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text"><div class="mb-4">
+              <p><span class="fw-bold">Name:</span> Shrey</p>
+              <p><span class="fw-bold">Price:</span> 3.8 rupees per egg</p>
+              <p><span class="fw-bold">Location:</span> Chennai</p>
+              <p><span class="fw-bold">Distance from Farmer:</span> 15.7 km</p>
+              <p><span class="fw-bold">Distance from Nearest Store:</span> 2 km</p>
+              <p><span class="fw-bold">Distance from Nearest Storage:</span> 5.3 km</p>
+            </div></p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+              <a href="#" class="btn btn-primary">Save Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
